@@ -7,7 +7,7 @@ import axios from "axios";
 
 function App() {
   const [notes, setNotes] = useState([]); //empty array
-  const baseURL="http://localhost:4000/";
+  const baseURL="http://localhost:4000/data";
   function addNote(newNote) {
     setNotes((preValue) => {
       return [...preValue, newNote];
