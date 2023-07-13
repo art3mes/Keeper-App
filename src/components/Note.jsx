@@ -5,7 +5,8 @@ import axios from "axios";
 function Note(props) {
   async function sendData() {
     try {
-      const res = await axios.post("http://localhost:4000/delete", {
+      //const res = await axios.post("http://localhost:4000/delete", {
+        const res = await axios.post("https://keeper-app-backend-dyr1.onrender.com/delete", {
         title: props.title
       });
       console.log(res);
