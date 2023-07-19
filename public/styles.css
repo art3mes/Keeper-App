@@ -7,14 +7,14 @@ html {
 }
 body {
   background: #eee;
-  padding: 0 16px;
+  padding: 0;
   background-image: url("https://www.transparenttextures.com/patterns/diagonal-striped-brick.png");
   overflow-x: hidden;
 }
 
 header {
   background-color: #f5ba13;
-  margin: auto -16px;
+
   padding: 16px 32px;
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
 }
@@ -26,7 +26,7 @@ header h1 {
 }
 
 footer {
-  position: absolute;
+  position: fixed;
   text-align: center;
   bottom: 0;
   width: 100%;
@@ -43,7 +43,7 @@ footer p {
   justify-content: center;
   border: none;
   border-radius: 50%;
-  position: absolute;
+  position: fixed;
   bottom: 1rem;
   right: 1rem;
   transition: opacity 0.3s;
@@ -110,7 +110,7 @@ footer p {
 form.create-note {
   position: relative;
   width:60%;
-  min-width: 400px;
+  min-width: 220px;
   max-width: 500px;
   margin: 30px auto 20px auto;
   background: #fff;
