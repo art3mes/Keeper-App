@@ -1,6 +1,6 @@
 import React from "react";
 import RefreshIcon from '@mui/icons-material/Refresh';
-import Fab from '@mui/material/Fab';
+//import Fab from '@mui/material/Fab';
 
 function Footer() {
   const year = new Date().getFullYear();
@@ -9,7 +9,7 @@ function Footer() {
         <footer>
           <p>Copyright ⓒ {year}</p>
         </footer>
-        <button className="refreshButton"><Fab><RefreshIcon /></Fab></button>
+        <button className="refreshButton"><RefreshIcon /></button>
     </div>
   );
 }
