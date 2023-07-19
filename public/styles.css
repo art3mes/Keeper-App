@@ -79,7 +79,8 @@ footer p {
   border-radius: 7px;
   box-shadow: 0 2px 5px #ccc;
   padding: 10px;
-  width: 240px;
+  width: auto;
+  min-width: 150px;
   margin: 16px;
   float: left;
 }
@@ -108,7 +109,9 @@ footer p {
 
 form.create-note {
   position: relative;
-  width: 480px;
+  width:60%;
+  min-width: 400px;
+  max-width: 500px;
   margin: 30px auto 20px auto;
   background: #fff;
   padding: 15px;
@@ -142,17 +145,13 @@ form.create-note button {
   cursor: pointer;
   outline: none;
 }
-
-
-   .headerSmall{
+.headerSmall{
     width: 100%;
     height: 100px;
     display: flex;
     align-items: center;
     justify-content: center;
-  } 
-  .h1Small{
-    font-size: 4rem;
-  } 
-
-
+} 
+.h1Small{
+  font-size: 4rem;
+} 

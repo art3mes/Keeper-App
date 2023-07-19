@@ -6,17 +6,17 @@ function Note(props) {
   async function sendData() {
     try {
       //const res = await axios.post("http://localhost:4000/delete", {
-        const res = await axios.post("https://keeper-app-backend-dyr1.onrender.com/delete", {
+        await axios.post("https://keeper-app-backend-dyr1.onrender.com/delete", {
         title: props.title
       });
-      console.log(res);
+      //console.log(res);
     } catch (error) {
       console.error(error);
     }
   }
   function deleteNote() {
     
-    console.log(props.title); 
+    //console.log(props.title); 
     sendData();
     props.onDeleteProp(props.id);
   }

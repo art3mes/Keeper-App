@@ -10,8 +10,6 @@ function CreateArea(props) {
     const [isCLicked,
         setClick] = useState(false);
 
-
-
     function handleChange(event) {
         const {name, value} = event.target;
 
@@ -34,11 +32,11 @@ function CreateArea(props) {
     async function sendData() {
         try {
           //const res = await axios.post("http://localhost:4000/", {
-            const res= await axios.post("https://keeper-app-backend-dyr1.onrender.com", {
+            await axios.post("https://keeper-app-backend-dyr1.onrender.com", {
             title: note.title,
             content: note.content
           });
-          console.log(res);
+          //console.log(res);
         } catch (error) {
           console.error(error);
         }

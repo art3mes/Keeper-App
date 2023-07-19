@@ -4,17 +4,6 @@ import DriveFileRenameOutlineIcon from '@mui/icons-material/DriveFileRenameOutli
 import Media from 'react-media';
 
 function Header() {
-  // return (
-    
-  //   <div>
-     
-  //   <Media query="(max-width: 599px)" render={() =>
-  //     (
-  //       <p>I am small!</p>
-  //     )}
-  //   />
-  // </div>
-  // );
   return (
     <div>
       <Media queries={{

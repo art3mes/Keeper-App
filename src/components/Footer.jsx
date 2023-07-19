@@ -9,7 +9,7 @@ function Footer() {
   return (
     <div>
         <footer>
-          <p>Copyright ⓒ {year}</p>
+          <p>art3mes ⓒ {year}</p>
         </footer>
         <button className="refreshButton" onClick={() => openInNewTab('https://keeper-app-backend-dyr1.onrender.com/')}><RefreshIcon /></button>
     </div>
