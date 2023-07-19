@@ -36,6 +36,18 @@ footer {
 footer p {
   color: rgb(47, 47, 47);
 }
+.refreshButton {
+  border: none;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 1rem;
+  right: 1rem;
+  transition: opacity 0.3s;
+  opacity: 50%;
+}
+.refreshButton:hover{
+  opacity: 100%;
+}
 .note {
   background: #fff;
   border-radius: 7px;
