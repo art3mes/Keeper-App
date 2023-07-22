@@ -36,7 +36,7 @@ function CreateArea(props) {
             title: note.title,
             content: note.content
           });
-          //console.log(res);
+         
         } catch (error) {
           console.error(error);
         }
